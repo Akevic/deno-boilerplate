@@ -1,4 +1,4 @@
-import { Log } from '../deps.ts';
+import { Log } from '../deps.ts'
 
 await Log.setup({
   handlers: {
@@ -8,13 +8,13 @@ await Log.setup({
   loggers: {
     default: {
       level: 'DEBUG',
-      handlers: ['console'],
-    },
-  },
-});
+      handlers: ['console']
+    }
+  }
+})
 
-const log = Log.getLogger();
+const log = Log.getLogger()
 
 export {
-  log,
-};
+  log
+}
