@@ -1,4 +1,4 @@
-import { log } from './log.ts'
+import { log } from './log'
 
 const main = () => {
   log.info('Starting your Deno App')
