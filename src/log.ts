@@ -1,10 +1,9 @@
-import { Log } from '../deps'
+import { Log } from '../deps.ts'
 
 await Log.setup({
   handlers: {
-    console: new Log.handlers.ConsoleHandler('DEBUG'),
+    console: new Log.handlers.ConsoleHandler('DEBUG')
   },
-
   loggers: {
     default: {
       level: 'DEBUG',
